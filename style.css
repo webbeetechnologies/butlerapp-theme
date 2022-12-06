@@ -35,6 +35,15 @@ a.default-link:hover {
 .with-underline {
   text-decoration: underline !important;
 }
+input[type=text], 
+input[type=email], 
+input[type=url], 
+input[type=password],
+input[type=number], 
+input[type=tel], textarea {
+  border: 1px solid transparent !important;
+}
+
 /*======================================================
  * POPUPS
  * ===================================================*/
